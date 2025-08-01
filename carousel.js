@@ -130,13 +130,13 @@ function updateSlide(noTransition = false) {
 function nextSlide() {
   currentIndex++;
   updateSlide();
-  // resetAutoSlide();
+  resetAutoSlide();
 }
 
 function prevSlide() {
   currentIndex--;
   updateSlide();
-  // resetAutoSlide();
+  resetAutoSlide();
 }
 
 carousel.addEventListener("transitionend", () => {
@@ -153,7 +153,7 @@ function resetAutoSlide() {
   clearInterval(autoSlide);
   autoSlide = setInterval(() => {
     nextSlide();
-  }, 4000);
+  }, 5000);
 }
 
 nextBtn.addEventListener("click", nextSlide);
@@ -169,4 +169,4 @@ window.addEventListener("resize", () => {
 cardsToShow = getCardsToShow();
 createCards();
 updateSlide(true);
-// resetAutoSlide();
+resetAutoSlide();
