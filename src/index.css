@@ -29,8 +29,16 @@ body {
 }
 
 .social-links {
+  display: inline-flex;
   margin-bottom: 15px;
   gap: 10px;
+}
+
+.social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
 }
 
 a {
