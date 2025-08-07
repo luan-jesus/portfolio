@@ -1,4 +1,7 @@
 import React, { useEffect } from 'react'
+
+import { FaGears } from "react-icons/fa6";
+
 import './scroller.css'
 
 export default function OtherCompetences() {
@@ -34,7 +37,7 @@ export default function OtherCompetences() {
 
   return (
     <section>
-      <h2>Demais Competências</h2>
+      <h2><FaGears /> Demais Competências</h2>
       <div className="scroller" data-speed="slow">
         <ul className="tag-list scroller__inner">
           <li>GIT</li>

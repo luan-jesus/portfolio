@@ -1,12 +1,14 @@
 import React from 'react'
 
+import { FaGear } from "react-icons/fa6";
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 export default function Competences() {
   return (
     <section>
-      <h2>Principais Competências</h2>
+      <h2><FaGear /> Principais Competências</h2>
       <Carousel
         arrows
         autoPlay

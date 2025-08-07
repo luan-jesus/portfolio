@@ -1,9 +1,11 @@
 import React from 'react'
 
+import { BsBriefcaseFill } from "react-icons/bs";
+
 export default function Experiences() {
   return (
     <section>
-      <h2>Experiência Profissional</h2>
+      <h2><BsBriefcaseFill /> Experiência Profissional</h2>
       <div className="timeline-wrapper">
         <div className="timeline-vertical-line"></div>
         <div className="timeline-item">
