@@ -37,7 +37,7 @@ export default function OtherCompetences() {
 
   return (
     <section>
-      <h2><FaGears /> Demais Competências</h2>
+      <h2><FaGears size={22} /> Demais Competências</h2>
       <div className="scroller" data-speed="slow">
         <ul className="tag-list scroller__inner">
           <li>GIT</li>

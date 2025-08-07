@@ -10,9 +10,9 @@ export default function Resume() {
       <p className="subtitle">Full Stack Developer | Java & JavaScript</p>
       
       <div className="social-links">
-        <a href="https://www.linkedin.com/in/luan-jesus" target="_blank"><FaLinkedin /> LinkedIn</a>
-        <a href="https://github.com/luan-jesus" target="_blank"><FaGithub /> GitHub</a>
-        <a href="https://wa.me/5519993134501?text=Olá, tudo bem?" target="_blank"><FaWhatsapp /> WhatsApp</a>
+        <a href="https://www.linkedin.com/in/luan-jesus" target="_blank"><FaLinkedin color='#0a66c2' /> LinkedIn</a>
+        <a href="https://github.com/luan-jesus" target="_blank"><FaGithub color="#000" /> GitHub</a>
+        <a href="https://wa.me/5519993134501?text=Olá, tudo bem?" target="_blank"><FaWhatsapp color='#26d466' /> WhatsApp</a>
       </div>
     
       <p className="description">

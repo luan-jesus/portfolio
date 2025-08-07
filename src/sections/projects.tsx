@@ -6,7 +6,7 @@ import { MdDashboard } from "react-icons/md";
 export default function Projects() {
   return (
     <section>
-      <h2><MdDashboard /> Projetos Pessoais</h2>
+      <h2><MdDashboard size={20} /> Projetos Pessoais</h2>
       <Carousel
         arrows
         autoPlay

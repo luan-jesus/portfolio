@@ -11,15 +11,13 @@ function App() {
 
   return (
     <>
-      <main className="container">
-
+      <main className="container" style={{paddingBottom: 0}}>
         <Resume />
         <Competences />
         <OtherCompetences />
         <Experiences />
         <Education />
         <Projects />
-
       </main>
       <footer>
         <p>Desenvolvido com ❤️ por Luan de Jesus Teixeira • <a href="https://github.com/luan-jesus/portfolio" target="_blank"><FaGithub /> Repositório</a></p>

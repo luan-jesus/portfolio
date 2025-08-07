@@ -8,10 +8,11 @@ import 'react-multi-carousel/lib/styles.css';
 export default function Competences() {
   return (
     <section>
-      <h2><FaGear /> Principais Competências</h2>
+      <h2><FaGear size={20} /> Principais Competências</h2>
       <Carousel
         arrows
         autoPlay
+        infinite
         autoPlaySpeed={3000}
         centerMode={false}
         draggable

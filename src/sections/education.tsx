@@ -8,7 +8,7 @@ import EtecLogo from '../assets/etecvav-logo.png';
 export default function Education() {
   return (
     <section>
-      <h2><IoMdSchool /> Formação Acadêmica</h2>
+      <h2><IoMdSchool size={22} /> Formação Acadêmica</h2>
       <div className="education-wrapper">
         <div className="card" style={{ display: 'flex', flex: 1, margin: 0 }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginRight: '20px' }}>

@@ -30,7 +30,7 @@ body {
 
 .social-links {
   display: inline-flex;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   gap: 10px;
 }
 
@@ -39,6 +39,12 @@ body {
   justify-content: center;
   align-items: center;
   gap: 3px;
+  color: #777;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 a {
@@ -48,7 +54,7 @@ a {
 }
 
 a:hover {
-  color: #696969;
+  color: #333;
 }
 
 h1 {
@@ -75,6 +81,7 @@ section h2 {
   margin-top: 40px;
   margin-bottom: 20px;
   text-align: left;
+  color: #444;
 }
 
 .grid {
@@ -100,7 +107,7 @@ ul li {
 
 footer {
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
 
 .timeline-wrapper {
